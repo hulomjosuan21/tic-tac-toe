@@ -5,7 +5,7 @@ def main():
     password = st.text_input("Password",type='password')
     
     if st.button("Proceed",key="btn"):
-        if password == "josuan23121":
+        if password == "hulom2212004":
             tab1,tab2 = st.tabs(["Video #1","Video #2"])
             with tab1:
                 st.video("vid-1.mp4",format='video/mp4')
